@@ -2,7 +2,7 @@ class Fibber
 
   attr_accessor :x
 
-  # Creates an Array of the Fibonnaci Sequence with the desired number of digits
+  # Creates an Array of the Fibonacci Sequence with the desired number of digits
   def self.fibb(quantity)
     @x = [0,1]
     quantity.times do |b|
@@ -26,7 +26,7 @@ class Fibber
   end
 end
 
-puts "How Long Should the Fibonacci Sequence Be?"
+puts "How long should the Fibonacci Sequence be?"
 
 input = gets.chomp
 quantity = input.to_i
